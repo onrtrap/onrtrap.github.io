@@ -1,13 +1,25 @@
 header{
     background-color: #27374D;
-    color: white;
+    color: black;
     font-size: 36px;
     text-align:center
 }
 
 body{
-        background-color: #526D82;
+        background-image: linear-gradient(#526D82, #27374D);
         font-family: 'Times New Roman', Times, serif;
         padding: 30px;
     }
+p{
+    background-color: #9DB2BF;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+
+h1{
+    text-align: center;
+    /**border-radius: 25px; **/
+}
 
