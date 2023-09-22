@@ -9,23 +9,6 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <meta name="viewport" content=" "width=device-width, initial scale = 1.0">
         <script type="text/javascript" src="assets\js\jquery-3.7.0.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $("body").css("display", "none");
-             
-                $("body").fadeIn(2000);
-             
-                $("a.transition").click(function(event){
-                    event.preventDefault();
-                    linkLocation = this.href;
-                    $("body").fadeOut(1000, redirectPage);      
-                });
-                     
-                function redirectPage() {
-                    window.location = linkLocation;
-                }
-            });
-            </script>
     </head>
     <body class="Site">
         <header id="logo">
