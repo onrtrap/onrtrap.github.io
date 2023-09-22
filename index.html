@@ -1,50 +1,143 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-  <title>Orion Roberts</title>
-  <link rel="stylesheet" type="text/css" href="docs\assets\css\indexStyle.css">
-</head>
-<body>
-    <script src="docs\javascript\headerScript.js"></script>
 
-  <header>
-    <h1 id="header-text"><strong>Orion's Project Bin</strong></h1>
-  </header>
-
+<style>
+    .mySlides {display: none;}
+</style>
+        <head>
+            <title>Mr.Nubbs</title>
+            <link rel="preload" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" as="style">
+            <link rel="preload" href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" as="style">
+            <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <script type="text/javascript" src="assets\js\jquery-3.7.0.min.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("body").css("display", "none");
+                 
+                    $("body").fadeIn(2000);
+                 
+                    $("a.transition").click(function(event){
+                        event.preventDefault();
+                        linkLocation = this.href;
+                        $("body").fadeOut(600, redirectPage);      
+                    });
+                         
+                    function redirectPage() {
+                        window.location = linkLocation;
+                    }
+                });
+                </script>
+        </head>
+    <body class="Site">
+        <header id="logo">
+            <img src="assets\images\Signature_cropped_3.png" style="width:100px; height:100px;" alt="Mr.Nubbs Logo" class="logo">
+            <script>
+                $(document).ready(function() {
+                    $('img.logo').click(function() {
+                        window.location.href = 'index.html';
+                    });
+                });
+            </script>
+            <h1>Mr.Nubbs</h1>
+            <h2>Concept Artist - Illustrator</h2>
+        </header>
+<main class=Site-content" id="content">
+        <h1>
+          Home
+        </h1>
+       <div class= "outer-box"> 
+        <ul class = "button-box"; id="buttons">
+            <li><a href="illustration.html" class="transition">Illustration</a></li>
+            <li><a href="chardesign.html" class="transition">Character Design</a></li>
+            <li><a href="sketches.html" class="transition">Sketches</a></li>
+            <li><a href="projects.html" class="transition">Projects</a></li>
+            <li><a href="about.html" class="transition">About</a></li>
+            <li><a href="contact.html" class="transition">Contact</a></li>
+          </ul>  
+        </div>
+        
   
 
-  <section>
-    <nav>
-      <p>2023</p>
-      <ul>
-        <li><a href="website.html"><em>This website</em></a></li>
-        <li><a href="pong.html"><em>Pong</em></a></li>
-      </ul>
-      <p>2022</p>
-      <ul>
-        <li><a href="hangman.html"><em>Hangman(Finished)</em></a></li>
-        <li><a href="humansvgoblins.html"><em>3D Rendering and Game Design (2022)</em></a></li>
-        <li><a href="hime.html"><em>H.I.M.E</em></a></li>
-      </ul>
-    </nav>
+<div class="w3-content w3-display-container" id="content">
+    
+    <div class="w3-display-container mySlides w3-animate-left" onclick="onClick(this)">
+      <img src="assets/images/illustrations/goats3.png" style="width:75%">
+      <h3 style= "text-align:center; font-family:'Overlock', cursive">
+        "Memories" - 7/10/2023
+      </h3>
+    </div>
+  
+    <div class="w3-display-container mySlides w3-animate-left" onclick="onClick(this)">
+        <img src="assets/images/illustrations/Bugsnax_Fanart_InchFry.png" style="width:75%">
+        <h3>
+            Straight Fry - "inch fry" -6/2/2023
+        </h3>
+      </div>
+      
+      <div class="w3-display-container mySlides w3-animate-left" onclick="onClick(this)">
+        <img src="assets/images/illustrations/Bugsnax_Fanart_InchFry_2.png" style="width:75%">
+        <h3>
+            Curly Fry - "inch fry" -6/2/2023
+        </h3>
+      </div>
+      
 
-    <article>
-      <p>
-        Hi, my name is Orion Noel Roberts, and this is a site for me to keep track of my projects. I'll update this as I complete more things, so make sure to come back from time to time.
-      </p>
-      <p>
-        I utilize a variety of languages to complete projects. I believe that it's best to write in the language that is at the intersection of good understanding and suitability. However, I do prefer to use Java on the backend and JavaScript on the frontend personally.
-      </p>
-      <p>
-        I have a wide variety of interests in software development and computer science, such as game design, app development, etc. I also hope to progressively grow stronger in coding in a variety of languages, especially C++, Java, JavaScript, and SQL for the time being.
-      </p>
-    </article>
-  </section>
+    <div class="w3-display-container mySlides w3-animate-left" onclick="onClick(this)">
+      <img src="assets/images/home/Ghost_type_EEVEE.png" style="width:75%">
+      <h3>
+        "Ghost Type Eevee" - 5/22/2023
+      </h3>
+    </div>
+    
+    <div class="w3-display-container mySlides w3-animate-left" onclick="onClick(this)">
+      <img src="assets/images/illustrations/Art_Exchange.png" style="width:75%">
+      <h3>
+        "Taking flight"- 4/28/2023
+      </h3>
+    </div>
+    
+    <div class="w3-display-container mySlides w3-animate-left" onclick="onClick(this)">
+      <img src="assets/images/home/Clorette.png" style="width:75%">
+      <h3>
+        "Oh, Clorette" - 2/22/2023
+      </h3>
+    </div>
+    
+    <div class="w3-display-container mySlides w3-animate-left" onclick="onClick(this)">
+      <img src="assets/images/home/love_bug.png" style="width:75%">
+      <h3>
+        "Love Bug" - 2/14/2023
+    </h3>
+    </div>
+    
+    </div>
 
-  <section></section>
-
-  <footer>
-    <h2><strong>Contact Me:</strong><br>ornrob@gmail.com</h2>
-  </footer>
-</body>
+    <script>
+        var myIndex = 0;
+    
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 5000);    
+        }
+        </script>
+        
+        </main>
+        <footer>
+            <p>
+            @2023 by Mr.Nubbs.
+            </p>
+        </footer>
+    </body> 
+   
 </html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mr.Nubbs</title>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" as="style">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" as="style">
+        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content=" "width=device-width, initial scale = 1.0">
+        <script type="text/javascript" src="assets\js\jquery-3.7.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("body").css("display", "none");
+             
+                $("body").fadeIn(2000);
+             
+                $("a.transition").click(function(event){
+                    event.preventDefault();
+                    linkLocation = this.href;
+                    $("body").fadeOut(1000, redirectPage);      
+                });
+                     
+                function redirectPage() {
+                    window.location = linkLocation;
+                }
+            });
+            </script>
+    </head>
+    <body class="Site">
+        <header id="logo">
+            <img src="assets\images\Signature_cropped_3.png" style="width:100px; height:100px;" alt="Mr.Nubbs Logo" class="logo">
+            <script>
+                $(document).ready(function() {
+                    $('img.logo').click(function() {
+                        window.location.href = 'index.html';
+                    });
+                });
+            </script>
+            <h1>Mr.Nubbs</h1>
+            <h1>Concept Artist - Illustrator</h1>
+        </header>
+    <main class=Site-content">
+        <h1>
+            Contact
+        </h1>
+       <div class= "outer-box"> 
+        <ul class = "button-box"; id="buttons">
+            <li><a href="illustration.html" class="transition">Illustration</a></li>
+            <li><a href="chardesign.html" class="transition">Character Design</a></li>
+            <li><a href="sketches.html" class="transition">Sketches</a></li>
+            <li><a href="projects.html" class="transition">Projects</a></li>
+            <li><a href="about.html" class="transition">About</a></li>
+            <li><a href="contact.html" class="transition">Contact</a></li>
+          </ul>  
+        </div>
+        <div class="w3-row">
+            <div id="contact">
+                <div class="w3-col s2" style="padding-left: 150px;">
+                   <div>
+                        <img src="assets/images/icons/tumblr_icon.png" style="width:50px; height:50px;" alt="Tumblr Icon">
+                        <h2>Tumblr</h2>
+                        <h3><a href="https://www.tumblr.com/mr-nubbs" class="transition">@mr-nubbs</a></h3>
+                    </div>
+                </div>
+    
+                <div class="w3-col s2" style="padding-left: 150px;">
+                    <div>
+                        <img src="assets/images/icons/cara_icon.png" style="width:50px; height:50px;" alt="Cara Icon">
+                        <h2>Cara</h2>
+                        <h3><a href="https://cara.app/mrnubbs" class="transition">@mrnubbs</a></h3>
+                    </div>
+                </div>
+    
+                <div class="w3-col s2" style="padding-left: 150px;">
+                    <div>
+                        <img src="assets/images/icons/ko_fi_icon.png" style="width:50px; height:50px;" alt="Ko-Fi Icon">
+                        <h2>Ko-Fi</h2> 
+                        <h3><a href=" https://ko-fi.com/mrnubbs" class="transition">ko-fi.com/mrnubbs</a></h3>
+                    </div> 
+                </div>
+    
+                <div class="w3-col s2" style="padding-left: 150px;"> 
+                    <div>
+                        <img src="assets/images/icons/Gmail-Logo.png" style="width:65px; height:50px; padding-right: 10px" alt="Email Icon">
+                        <h2>Email</h2>   
+                        <h3>mr.nubbs.offical<br>@gmail.com</h3>
+                    </div>
+                </div>
+                <div class="w3-col s2" style="padding-left: 150px;"> 
+                    <div>
+                      <img src="assets/images/icons/bluesky_icon.png" style="width:50px; height:50px;" alt="Bluesky Icon">
+                    <h2>BlueSky</h2>   
+                    <h3><a href="https://bsky.app/profile/mrnubbs.bsky.social" class="transition">@Mr.Nubbs</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+        <footer>
+            <p>
+            @2023 by Mr.Nubbs.
+            </p>
+        </footer>
+    </body> 
+   
+</html>

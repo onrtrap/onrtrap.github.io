@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mr.Nubbs</title>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" as="style">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" as="style">
+        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content=" "width=device-width, initial scale = 1.0">
+        <script type="text/javascript" src="assets\js\jquery-3.7.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("body").css("display", "none");
+             
+                $("body").fadeIn(2000);
+             
+                $("a.transition").click(function(event){
+                    event.preventDefault();
+                    linkLocation = this.href;
+                    $("body").fadeOut(1000, redirectPage);      
+                });
+                     
+                function redirectPage() {
+                    window.location = linkLocation;
+                }
+            });
+            </script>
+    </head>
+    <body class="Site">
+        <header id="logo">
+            <img src="assets\images\Signature_cropped_3.png" style="width:100px; height:100px;" alt="Mr.Nubbs Logo" class="logo">
+            <script>
+                $(document).ready(function() {
+                    $('img.logo').click(function() {
+                        window.location.href = 'index.html';
+                    });
+                });
+            </script>
+            <h1>Mr.Nubbs</h1>
+            <h1>Concept Artist - Illustrator</h1>
+        </header>
+    <main class=Site-content">
+       
+       <div class= "outer-box"> 
+        <ul class = "button-box"; id="buttons">
+            <li><a href="illustration.html" class="transition">Illustration</a></li>
+            <li><a href="chardesign.html" class="transition">Character Design</a></li>
+            <li><a href="sketches.html" class="transition">Sketches</a></li>
+            <li><a href="projects.html" class="transition">Projects</a></li>
+            <li><a href="about.html" class="transition">About</a></li>
+            <li><a href="contact.html" class="transition">Contact</a></li>
+          </ul>
+        
+        </div>
+        <h1 style="color: #D23345; font-size: 120px;  font-family: 'Amatic SC', cursive; text-align: center; margin-bottom: 0;">
+            About
+        </h1> 
+        <p style="color: #25E7DF; font-size: 20px; font-family: 'Overlock', cursive; margin-left: 200px; margin-right: 200px; margin-top:0; margin-bottom: 50px;">Hello! My name is Alana! I’m an artist from North Carolina whose specializes in illustration and character design! I am currently working towards my Bachelors in concept art and game design!
+        </p>  
+        <p style="color: #25E7DF; font-size: 20px; font-family: 'Overlock', cursive; margin-left: 200px; margin-right: 200px; margin-bottom: 50px;">
+            Between private commissions and university classes, I create stories, artwork, and indie level games! I enjoy playing video games, drawing, and story creation!​
+        </p> 
+        <p style="color: #25E7DF; font-size: 20px; font-family: 'Overlock', cursive; margin-left: 200px; margin-right: 200px; margin-bottom: 50px;">
+            Thank you for coming! For inquiries or commissions, please feel free to reach out to me privately, all contact information is in the "contacts" tab!
+        </p>
+    </main>
+        <footer>
+            <p>
+            @2023 by Mr.Nubbs.
+            </p>
+        </footer>
+    </body> 
+   
+</html>

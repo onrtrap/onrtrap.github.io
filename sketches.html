@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mr.Nubbs</title>
+        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+        <script type="text/javascript" src="assets\js\jquery-3.7.0.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("body").css("display", "none");
+             
+                $("body").fadeIn(2000);
+             
+                $("a.transition").click(function(event){
+                    event.preventDefault();
+                    linkLocation = this.href;
+                    $("body").fadeOut(1000, redirectPage);      
+                });
+                     
+                function redirectPage() {
+                    window.location = linkLocation;
+                }
+            });
+            </script>
+    </head>
+    <body class="Site">
+        <header id="logo">
+            <img src="assets\images\Signature_cropped_3.png" style="width:100px; height:100px;" alt="Mr.Nubbs Logo" class="logo">
+            <script>
+                $(document).ready(function() {
+                    $('img.logo').click(function() {
+                        window.location.href = 'index.html';
+                    });
+                });
+                </script>
+            <h1>Mr.Nubbs</h1>
+            <h1>Concept Artist - Illustrator</h1>
+        </header>
+    <main class=Site-content"; id="content">
+        <h1>Sketches
+        </h1>
+       <div class= "outer-box"> 
+        <ul class = "button-box"; id="buttons">
+            <li><a href="illustration.html" class="transition">Illustration</a></li>
+            <li><a href="chardesign.html" class="transition">Character Design</a></li>
+            <li><a href="sketches.html" class="transition">Sketches</a></li>
+            <li><a href="projects.html" class="transition">Projects</a></li>
+            <li><a href="about.html" class="transition">About</a></li>
+            <li><a href="contact.html" class="transition">Contact</a></li>
+          </ul>  
+        </div>
+       <div class="w3-row">
+            <div class="w3-col s3"><img onclick="onClick(this)" src="assets/images/sketches/Prompt_Sketch.png" style="width:300px; height:305px;" alt="Cat Sketch"></div>
+
+            <div class="w3-col s3"><img onclick="onClick(this)" src="assets/images/sketches/artTrade2.png" style="width:300px; height:305px;" alt="Art Trade"></div>
+
+            <div class="w3-col s3"><img onclick="onClick(this)" src="assets/images/sketches/Monster_Conpcet.png" style="width:300px; height:305px;" alt="Monster Concept"></div>
+
+            <div class="w3-col s3"> <img onclick="onClick(this)" src="assets/images/sketches/licorice.png" style="width:300px; height:305px;" alt="Licorice"></div>
+        
+        </div>
+
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+            <img id="img01" style="width:100%">
+        </div>
+        </div>
+        <script>
+            function onClick(element) {
+              document.getElementById("img01").src = element.src;
+              document.getElementById("modal01").style.display = "block";
+            }
+            </script> 
+    </main>
+        <footer>
+            <p>
+            @2023 by Mr.Nubbs.
+            </p>
+        </footer>
+    </body> 
+   
+</html>
