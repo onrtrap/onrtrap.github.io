@@ -20,21 +20,21 @@ html{
     font-family: 'Amatic SC', cursive;
     text-align:center;
     color: #D23345;
-    font-size: 4em;
+    font-size: 4.980544747081712vw;
     margin-top: 0;
     margin-bottom: 0;
-    letter-spacing: 0.1em;    
+    letter-spacing: 0.1245136186770428vw;    
 }
 
 #logo h2{
     font-family: 'Amatic SC', cursive;
     text-align:center;
     color: #D23345;
-    font-size: 2em;
+    font-size: 2.490272373540856vw;
     margin-top: 0;
     margin-bottom: 0;
     white-space:pre;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1867704280155642vw;
 }
 
 #logo img{
@@ -42,7 +42,7 @@ html{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    margin-top: 4em;
+    margin-top: 4.980544747081712vw;
     width: 50%;
 }
 
@@ -51,16 +51,16 @@ html{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    margin-top: 0.5em;
+    margin-top:  0.622568093385214vw;
     width: 50%;
 }
 
 #content p{
     display: block;
-    margin-left: 35.63em;
+    margin-left: 21.964202334630356vw;
     margin-right: auto;
     margin-bottom: 0;
-    margin-top: 4em;
+    margin-top: 4.980544747081712vw;
     width: 50%;
     color: #D23345;
     font-family:'Times New Roman', Times, serif;
@@ -83,12 +83,12 @@ html{
 #contact h2{
     font-family: 'Amatic SC', cursive;
     color: #D23345;
-    font-size:1.9em;
+    font-size:2.3657587548638133vw;
 }
 
 #contact h3{
     text-align: center;
-    font-size: 1em;
+    font-size: 1.245136186770428vw;
     color: #25E7DF;
 }
 
@@ -115,22 +115,22 @@ body h1{
     font-family: 'Overlock', cursive; 
     text-align:center;
     color: #D23345;
-    font-size: 2.1875em;
+    font-size: 2.7237354085603114vw;
 }
 
 .outer-box{
-    height: 105px;
+    height: 10.8359133126935vh;
     box-sizing: border-box;
     border: 2px solid #25E7DF;
-    margin-bottom: 50px;
+    margin-bottom:  5.159958720330238vh;
 }
 
 .button-box{
     text-align: center;
     list-style-type: none;
-    margin: 1px;
+    margin: 0.052083333333333336vw;
     padding: 0;
-    height: 100px;
+    height: 10.319917440660475vh;
     box-sizing: border-box;
     border: 3px solid #D23345;
 
@@ -138,7 +138,7 @@ body h1{
 
 .image-column{
     flex:33%;
-    padding: 5px;
+    padding: 0.2604166666666667vw
 }
 
 .image-row-after{
@@ -150,9 +150,9 @@ list-style: none;
 text-align: center;
 position: relative;
 display: inline-block;
-margin-top: 30px;
-padding: 0.5em;
-border: 0.125em solid #25E7DF;
+margin-top: 1.4959752321981426vh;
+padding: 0.622568093385214vw;
+border: 0.1556420233463035vw solid #25E7DF;
 background-color: #2A2E2E;
 }
 
@@ -161,8 +161,8 @@ list-style: none;
 text-align: center;
 position: relative;
 display: inline-block;
-padding: 0.5em;
-border: 0.125em solid #D23345;
+padding: 0.622568093385214vw;
+border: 0.1556420233463035vw solid #D23345;
 background-color: #2A2E2E;
 }
 
@@ -175,6 +175,7 @@ color: #25E7DF;
 text-decoration: none;
 font-family:'Times New Roman', Times, serif;
 color: #D23345;
+font-size:1.2333333333333334vw;
 }
 
 body{
@@ -182,9 +183,9 @@ body{
 background-color: #2A2E2E;
 margin: 0;
 padding: 0;
-border-left: 12.6em solid #000104;
-border-right: 12.6em solid #000104;
-border-top: 0.63em solid #000104;
+border-left: 15.688715953307392vw solid #000104;
+border-right: 15.688715953307392vw solid #000104;
+border-top:  0.7844357976653696vw solid #000104;
 min-height: 100vh;
 max-width: 100%; 
 }
@@ -192,15 +193,15 @@ max-width: 100%;
 footer{
 background-color: #181a1a;
 position:relative;
-margin-top: 5em;
-height: 5em;
+margin-top: 6.22568093385214vw;
+height: 6.22568093385214vw;
 width: 100%;
 left: 0;
 bottom: 0;
 }
 
 footer p{
-    padding-top: 15px;
+    padding-top: 4.5479876160990713vh;
     text-align: center;
     color: #25E7DF;
 }
