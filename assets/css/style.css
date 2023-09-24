@@ -121,7 +121,7 @@ body h1{
 .outer-box{
     height: 10.8359133126935vh;
     box-sizing: border-box;
-    border: 2px solid #25E7DF;
+    border: 0.124vw solid #25E7DF;
     margin-bottom:  5.159958720330238vh;
 }
 
@@ -132,7 +132,7 @@ body h1{
     padding: 0;
     height: 10.319917440660475vh;
     box-sizing: border-box;
-    border: 3px solid #D23345;
+    border: 0.185vw solid #D23345;
 
 }
 
