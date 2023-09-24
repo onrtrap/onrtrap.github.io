@@ -201,6 +201,7 @@ bottom: 0;
 }
 
 footer p{
+    position: relative;
     padding-top: 4.5479876160990713vh;
     text-align: center;
     color: #25E7DF;
