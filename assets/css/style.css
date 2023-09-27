@@ -148,7 +148,7 @@ body h1{
 #buttons li{  
 list-style: none;
 text-align: center;
-position: relative;
+position: static;
 display: inline-block;
 margin-top: 1.4959752321981426vh;
 padding: 0.622568093385214vw;
@@ -159,7 +159,7 @@ background-color: #2A2E2E;
 #buttons li:hover{
 list-style: none;
 text-align: center;
-position: relative;
+position: static;
 display: inline-block;
 padding: 0.622568093385214vw;
 border: 0.1556420233463035vw solid #D23345;
