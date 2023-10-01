@@ -193,6 +193,7 @@
     footer{
     background-color: #181a1a;
     position:relative;
+    margin-top: 3em;
     height: 8em;
     width: 100%;
     left: 0;
@@ -401,7 +402,8 @@
         
         footer{
         background-color: #181a1a;
-        position:relative;
+        position:sticky;
+        margin-top: 3em;
         height: 8em;
         width: 100%;
         left: 0;
@@ -611,7 +613,8 @@
         
         footer{
         background-color: #181a1a;
-        position:relative;
+        margin-top: 3em;
+        position:sticky;
         height: 12.22568093385214vh;
         width: 100%;
         left: 0;
