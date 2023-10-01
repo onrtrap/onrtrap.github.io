@@ -342,7 +342,7 @@
             padding: 0;
             height: 10.319917440660475vh;
             box-sizing: border-box;
-            border: 0.185vw solid green;
+            border: 0.185vw solid #D23345;
         
         }
         
@@ -360,9 +360,9 @@
         text-align: center;
         position: static;
         display: inline-block;
-        margin-top: 1.4959752321981426vh;
+        margin-top: 1.6959752321981426vh;
         padding: 0.622568093385214vw;
-        border: 0.1556420233463035vw solid #25E7DF;
+        border: 0.1556420233463035vw solid yellow;
         background-color: #2A2E2E;
         }
         
