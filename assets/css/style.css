@@ -151,7 +151,7 @@
     position: static;
     display: inline-block;
     margin-top: 1.4959752321981426vh;
-    padding: 0.622568093385214vw;
+    padding: 0.7em;
     border: 0.1556420233463035vw solid #25E7DF;
     background-color: #2A2E2E;
     }
@@ -161,7 +161,7 @@
     text-align: center;
     position: static;
     display: inline-block;
-    padding: 0.622568093385214vw;
+    padding: 0.7em;
     border: 0.1556420233463035vw solid #D23345;
     background-color: #2A2E2E;
     }
@@ -361,7 +361,7 @@
         position: static;
         display: inline-block;
         margin-top: 1.6959752321981426vh;
-        padding: 0.622568093385214vw;
+        padding: 0.7em;
         border: 0.1556420233463035vw solid yellow;
         background-color: #2A2E2E;
         }
@@ -371,7 +371,7 @@
         text-align: center;
         position: static;
         display: inline-block;
-        padding: 0.622568093385214vw;
+        padding: 0.7em;
         border: 0.1556420233463035vw solid #D23345;
         background-color: #2A2E2E;
         }
@@ -572,7 +572,7 @@
         position: static;
         display: inline-block;
         margin-top: 1.4959752321981426vh;
-        padding: 0.622568093385214vw;
+        padding: 0.7em;
         border: 0.1556420233463035vw solid #25E7DF;
         background-color: #2A2E2E;
         }
@@ -582,7 +582,7 @@
         text-align: center;
         position: static;
         display: inline-block;
-        padding: 0.622568093385214vw;
+        padding: 0.7em;
         border: 0.1556420233463035vw solid #D23345;
         background-color: #2A2E2E;
         }
