@@ -640,15 +640,27 @@
           }
     }
 
-    @media screen and (max-width: 1024px) {
+    @media all and (max-width: 1024px) {
+        .hide-on-mobile {
+          display: none;
+        }
+      }
+      
+      @media all and (min-width: 1025px) {
+        .show-on-mobile {
+          display: inline;
+        }
+      }
+
+      @media all and (max-width: 1024px) {
         .hide-on-desktop {
           display: none;
         }
       }
       
-      @media screen and (min-width: 1025px) {
+      @media all and (min-width: 1025px) {
         .show-on-desktop {
-          display: none;
+          display: inline;
         }
       }
    
