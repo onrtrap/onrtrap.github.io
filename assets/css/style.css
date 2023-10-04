@@ -656,25 +656,25 @@
         display: none;
       }
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 1025px) {
         .hide-on-mobile {
           display: none;
         }
       }
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1024px) {
         .show-on-mobile {
           display: inline;
         }
       }
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1024px) {
         .hide-on-desktop {
           display: none;
         }
       }
       
-      @media screen and (min-width: 769px) {
+      @media screen and (min-width: 1025px) {
         .show-on-desktop {
           display: inline;
         }
