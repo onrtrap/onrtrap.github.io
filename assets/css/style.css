@@ -2,15 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
 
-@font-face{
-    font-family: 'Amatic 1'; 
-    font-weight: 400; 
-    font-style: normal;
-    font-display: swap; /* Read next point */
-    unicode-range: U+000-5FF; /* Download only latin glyphs */
-    src: url('/assets/fonts/AmaticSC-Regular.ttf') format('truetype');
-}
-
     html{
         min-height: 100%;
         background-color: #000104;
@@ -338,9 +329,9 @@
         .button-box{
             text-align: center;
             list-style-type: none;
-            margin: 0.052083333333333336vw;
+            margin: 0.042083333333333336vw;
             padding: 0;
-            height: 10.619917440660475vh;
+            height: 10.719917440660475vh;
             box-sizing: border-box;
             border: 0.185vw solid #D23345;
         
@@ -413,7 +404,7 @@
         footer p{
             position:sticky;
             font-size: 1em;
-            padding-top: 2.5479876160990713vh;
+            padding-top: 2.0vh;
             text-align: center;
             color: #25E7DF;
         }
