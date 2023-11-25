@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monster Generator</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Monster Generator</h1>
+    <button onclick="generateMonster(); randomizeColors();">Generate Monster</button>
+    <div id="monster"></div>
+    <canvas id="monsterCanvas">
+
+    </canvas>
+
+    <script>
+         var img = new Image();
+        img.src = 'monster.jpg'; 
+        img.onload = function() {
+            drawImage(this);
+        };
+        function generateMonster() {
+            var monsterNames = ["Slime", "Goblin", "Dragon", "Zombie"];
+            var monsterName = monsterNames[Math.floor(Math.random() * monsterNames.length)];
+
+            var monsterHP = Math.floor(Math.random() * 100) + 1;
+            var monsterSTR = Math.floor(Math.random() * 100) + 1;
+            var monsterDEF = Math.floor(Math.random() * 100) + 1;
+            var monsterINT = Math.floor(Math.random() * 100) + 1;
+            var monsterWILL = Math.floor(Math.random() * 100) + 1;
+            var monsterSPD = Math.floor(Math.random() * 100) + 1;
+
+            var monsterDiv = document.getElementById("monster");
+            monsterDiv.innerHTML = "<h2>" + monsterName + "</h2>"
+                + "<p>HP: " + monsterHP + "</p>"
+                + "<p>STR: " + monsterSTR + "</p>"
+                + "<p>DEF: " + monsterDEF + "</p>"
+                + "<p>INT: " + monsterINT + "</p>"
+                + "<p>WILL: " + monsterWILL + "</p>"
+                + "<p>SPD: " + monsterSPD + "</p>";
+        }
+
+        function drawImage(img) {
+            var canvas = document.getElementById('monsterCanvas');
+            var ctx = canvas.getContext('2d');
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img, 0, 0, img.width, img.height);
+        }
+
+        function randomizeColors() {
+            var canvas = document.getElementById('monsterCanvas');
+            var ctx = canvas.getContext('2d');
+            var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            var data = imageData.data;
+            for (var i = 0; i < data.length; i += 4) {
+                data[i] = data[i] * Math.random();     // red
+                data[i + 1] = data[i + 1] * Math.random(); // green
+                data[i + 2] = data[i + 2] * Math.random(); // blue
+            }
+            ctx.putImageData(imageData, 0, 0);
+        }
+    </script>
+</body>
+</html>
