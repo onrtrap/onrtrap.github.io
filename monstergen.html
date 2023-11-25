@@ -19,14 +19,26 @@
 
     <script>
          var img = new Image();
-        img.src = 'monster.jpg'; 
+        img.src = 'docs/assets/images/monster.jpg'; 
         img.onload = function() {
             drawImage(this);
         };
         function generateMonster() {
-            var monsterNames = ["Slime", "Goblin", "Dragon", "Zombie"];
+            var monsterNames = ["Slime", "Goblin", "Dragon", "Skeleton"];
             var monsterName = monsterNames[Math.floor(Math.random() * monsterNames.length)];
 
+            if(monsterName = "Skeleton"){
+            img.src= 'docs/assets/images/skele.jpg';
+        }
+            else if(monsterName = "Slime"){
+            img.src= 'docs/assets/images/skele.jpg';
+        }
+        else if(monsterName = "Goblin"){
+            img.src= 'docs/assets/images/skele.jpg';
+        }
+        else if(monsterName = "Dragon"){
+            img.src= 'docs/assets/images/skele.jpg';
+        }
             var monsterHP = Math.floor(Math.random() * 100) + 1;
             var monsterSTR = Math.floor(Math.random() * 100) + 1;
             var monsterDEF = Math.floor(Math.random() * 100) + 1;
@@ -57,10 +69,15 @@
             var ctx = canvas.getContext('2d');
             var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
             var data = imageData.data;
+            var randomColorR = Math.random() * 255;
+            var randomColorG = Math.random() * 255;
+            var randomColorB = Math.random() * 255;
             for (var i = 0; i < data.length; i += 4) {
-                data[i] = data[i] * Math.random();     // red
-                data[i + 1] = data[i + 1] * Math.random(); // green
-                data[i + 2] = data[i + 2] * Math.random(); // blue
+                if(data[i] == 255 && data[i + 1] == 255 && data[i + 2] == 255){
+                data[i] = randomColorR;     // red
+                data[i + 1] = randomColorG; // green
+                data[i + 2] = randomColorB; // blue
+                }
             }
             ctx.putImageData(imageData, 0, 0);
         }
