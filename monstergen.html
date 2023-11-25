@@ -69,9 +69,9 @@
             var ctx = canvas.getContext('2d');
             var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
             var data = imageData.data;
-            var randomColorR = Math.random() * 255;
-            var randomColorG = Math.random() * 255;
-            var randomColorB = Math.random() * 255;
+            var randomColorR = Math.random() * 100;
+            var randomColorG = Math.random() * 100;
+            var randomColorB = Math.random() * 100;
             for (var i = 0; i < data.length; i += 4) {
                 if(data[i] == 255 && data[i + 1] == 255 && data[i + 2] == 255){
                 data[i] = randomColorR;     // red
