@@ -19,7 +19,7 @@
 
     <script>
          var img = new Image();
-        img.src = 'docs/assets/images/monster.jpg'; 
+        img.src = 'docs/assets/images/monster.png'; 
         img.onload = function() {
             drawImage(this);
         };
@@ -27,17 +27,17 @@
             var monsterNames = ["Slime", "Goblin", "Dragon", "Skeleton"];
             var monsterName = monsterNames[Math.floor(Math.random() * monsterNames.length)];
 
-            if(monsterName = "Skeleton"){
-            img.src= 'docs/assets/images/skele.jpg';
+            if(monsterName == "Skeleton"){
+            img.src= 'docs/assets/images/skele.png';
         }
-            else if(monsterName = "Slime"){
-            img.src= 'docs/assets/images/skele.jpg';
+            else if(monsterName == "Slime"){
+            img.src= 'docs/assets/images/skele.png';
         }
-        else if(monsterName = "Goblin"){
-            img.src= 'docs/assets/images/skele.jpg';
+        else if(monsterName == "Goblin"){
+            img.src= 'docs/assets/images/skele.png';
         }
-        else if(monsterName = "Dragon"){
-            img.src= 'docs/assets/images/skele.jpg';
+        else if(monsterName == "Dragon"){
+            img.src= 'docs/assets/images/skele.png';
         }
             var monsterHP = Math.floor(Math.random() * 100) + 1;
             var monsterSTR = Math.floor(Math.random() * 100) + 1;
