@@ -74,13 +74,20 @@
             var ctx = canvas.getContext('2d', {willReadFrequently: true});
             var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
             var data = imageData.data;
-            var randomColorRPrim = Math.random() * 100;
-            var randomColorGPrim = Math.random() * 100;
-            var randomColorBPrim = Math.random() * 100;
+            var randomColorRPrim = Math.random() * 100 - 50;
+            var randomColorGPrim = Math.random() * 100 - 50;
+            var randomColorBPrim = Math.random() * 100 - 50;
+
+            if(randomColorRPrim < 30 && randomColorGPrim < 30 && randomColorBPrim < 30)
+            randomColorRPrim,randomColorGPrim,randomColorBPrim += 30;
            
-            var randomColorRSec = Math.random() * 100;
-            var randomColorGSec = Math.random() * 100;
-            var randomColorBSec = Math.random() * 100;
+            var randomColorRSec = Math.random() * 100 - 50;
+            var randomColorGSec = Math.random() * 100 - 50;
+            var randomColorBSec = Math.random() * 100 - 50;
+
+            if(randomColorRSec < 30 && randomColorGSec < 30 && randomColorBSec < 30)
+            randomColorRSec,randomColorGSec,randomColorBSec += 30;
+        
             for (var i = 0; i < data.length; i += 4) {
                 if(data[i] == 255 && data[i + 1] == 255 && data[i + 2] == 255){
                 data[i] = randomColorRPrim;     // red
