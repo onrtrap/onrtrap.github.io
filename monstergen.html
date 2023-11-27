@@ -77,7 +77,14 @@
             var randomColorRPrim = Math.random() * 100;
             var randomColorGPrim = Math.random() * 100;
             var randomColorBPrim = Math.random() * 100;
-
+        
+            if(randomColorRPrim <= 30 && randomColorGPrim <= 30 && randomColorBPrim <= 30)
+            {
+                randomColorRPrim += 30;
+                randomColorGPrim += 30;
+                randomColorBPrim += 30;
+            }
+            else{
             if(randomColorRPrim <= 10)
             randomColorRPrim += 20;
             else if(randomColorRPrim >= 220)
@@ -92,11 +99,19 @@
             randomColorBPrim += 20;
             else if(randomColorGPrim >= 220)
             randomColorRPrim -= 40;
-           
+            }
+
             var randomColorRSec = Math.random() * 100;
             var randomColorGSec = Math.random() * 100;
             var randomColorBSec = Math.random() * 100;
 
+            if(randomColorRSec <= 30 && randomColorGSec <= 30 && randomColorBSec <= 30)
+            {
+                randomColorRSec += 30;
+                randomColorGSec += 30;
+                randomColorBSec += 30;
+            }
+            else{
             if(randomColorRSec <= 10)
             randomColorRSec += 20;
             else if(randomColorRSec >= 220)
@@ -111,7 +126,7 @@
             randomColorBSec += 20;
             else if(randomColorGSec >= 220)
             randomColorRSec -= 40;
-           
+            }
 
             for (var i = 0; i < data.length; i += 4) {
                 if(data[i] == 255 && data[i + 1] == 255 && data[i + 2] == 255){
