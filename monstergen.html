@@ -78,20 +78,20 @@
             var randomColorGPrim = Math.random() * 100;
             var randomColorBPrim = Math.random() * 100;
            
-            var randomColorRPSec = Math.random() * 100;
-            var randomColorGSec = Math.random() * 100;
-            var randomColorBSec = Math.random() * 100;
+            //var randomColorRSec = Math.random() * 100;
+            //var randomColorGSec = Math.random() * 100;
+            //var randomColorBSec = Math.random() * 100;
             for (var i = 0; i < data.length; i += 4) {
                 if(data[i] == 255 && data[i + 1] == 255 && data[i + 2] == 255){
                 data[i] = randomColorRPrim;     // red
                 data[i + 1] = randomColorGPrim; // green
                 data[i + 2] = randomColorBPrim; // blue
                 }
-                else if(data[i] == 255 && data[i + 1] == 31 && data[i + 2] == 0){
-                data[i] = randomColorRSec;     // red
-                data[i + 1] = randomColorGSec; // green
-                data[i + 2] = randomColorBSec; // blue
-                }
+                //else if(data[i] == 255 && data[i + 1] == 31 && data[i + 2] == 0){
+                //data[i] = randomColorRSec;     // red
+                //data[i + 1] = randomColorGSec; // green
+               // data[i + 2] = randomColorBSec; // blue
+               // }
             }
             ctx.putImageData(imageData, 0, 0);
         }
