@@ -1,11 +1,9 @@
 var img = new Image();
       
-function generateMonster() {
+function generateMonster(){ 
     var monsterNames = ["Slime", "Goblin", "Dragon", "Skeleton"];
     var monsterName = monsterNames[Math.floor(Math.random() * monsterNames.length)];
     var monsterDesc = "This [CreatureName] is from the [Region] Region.  It's strongest point is in its [Stat]."
-
-    
 
     if(monsterName == "Skeleton"){
     img.src= 'docs/assets/images/skele.png';
@@ -20,10 +18,66 @@ else if(monsterName == "Dragon"){
     img.src= 'docs/assets/images/dragon.png';
 }
 
+var randomColorRPrim = Math.random() * 255;
+var randomColorGPrim = Math.random() * 255;
+var randomColorBPrim = Math.random() * 255;
+
+if(randomColorRPrim <= 30 && randomColorGPrim <= 30 && randomColorBPrim <= 30)
+{
+    randomColorRPrim += 140;
+    randomColorGPrim += 140;
+    randomColorBPrim += 140;
+}
+else{
+if(randomColorRPrim <= 10)
+randomColorRPrim += 40;
+else if(randomColorRPrim >= 220)
+randomColorRPrim -= 30;
+
+if(randomColorGPrim <= 10)
+randomColorGPrim += 40;
+else if(randomColorGPrim >= 220)
+randomColorRPrim -= 30;
+
+if(randomColorBPrim <= 10)
+randomColorBPrim += 40;
+else if(randomColorGPrim >= 220)
+randomColorRPrim -= 30;
+}
+
+var randomColorRSec = Math.random() * 255;
+var randomColorGSec = Math.random() * 255;
+var randomColorBSec = Math.random() * 255;
+
+if(randomColorRSec <= 30 && randomColorGSec <= 30 && randomColorBSec <= 30)
+{
+    randomColorRSec += 30;
+    randomColorGSec += 30;
+    randomColorBSec += 30;
+}
+else{
+if(randomColorRSec <= 10)
+randomColorRSec += 20;
+//else if(randomColorRSec >= 220)
+//randomColorRSec -= 40;
+
+if(randomColorGSec <= 10)
+randomColorGSec += 20;
+//else if(randomColorGSec >= 220)
+//randomColorRSec -= 40;
+
+if(randomColorBSec <= 10)
+randomColorBSec += 20;
+//else if(randomColorGSec >= 220)
+//randomColorRSec -= 40;
+//}
+
+console.log("R: " + randomColorRPrim + " G: " + randomColorBPrim + " B: " + randomColorGPrim)
+
 img.onload = function() {
     drawImage(this);
 
-    randomizeColors();
+    randomizeColors(randomColorRPrim, randomColorGPrim, randomColorBPrim, randomColorRSec, randomColorGSec, randomColorBSec);
 };
 
     
@@ -43,7 +97,7 @@ img.onload = function() {
     statArray.push(monsterSPD);
     
    
-    monsterDesc = randomizeDesc(monsterDesc, monsterName, statArray);
+    monsterDesc = randomizeDesc(monsterDesc, monsterName, statArray, randomColorRPrim, randomColorGPrim, randomColorBPrim);
     
     var monsterDiv = document.getElementById("monster");
     monsterDiv.innerHTML = "<h2>" + monsterName + "</h2>"
@@ -64,7 +118,7 @@ function drawImage(img) {
     ctx.drawImage(img, 0, 0, img.width, img.height);
 }
 
-function randomizeDesc(desc, monsterName, statArray){
+function randomizeDesc(desc, monsterName, statArray, randomColorRPrim, randomColorGPrim, randomColorBPrim){
     var monsterDesc = "This [CreatureName] is from the [Region] Region.  It's strongest point is in its [Stat]."
     if(monsterName == "Skeleton"){
          desc = desc.replace("[CreatureName]", "Skeleton");
@@ -79,8 +133,24 @@ function randomizeDesc(desc, monsterName, statArray){
         desc = desc.replace("[CreatureName]", "Dragon");
     }
 
-    desc = desc.replace("[Region]", "Grassy");
-    
+
+if(randomColorRPrim >= 153 || randomColorGPrim >= 153 || randomColorBPrim >= 153){
+    if(randomColorRPrim > randomColorGPrim && randomColorGPrim >= randomColorBPrim){
+        desc = desc.replace("[Region]", "Desert");
+    }
+    else if(randomColorGPrim > randomColorRPrim && randomColorRPrim >= randomColorBPrim || randomColorBPrim <= randomColorRPrim){
+        desc = desc.replace("[Region]", "Grasslands")
+    }
+    else if(randomColorBPrim >= randomColorGPrim && randomColorGPrim >= 153 || randomColorRPrim >= 153){
+        desc = desc.replace("[Region]", "Ice");
+    }
+    else{
+        desc = desc.replace("[Region]", "Unknown")
+    }
+}
+else{
+    desc = desc.replace("[Region]", "Unknown");
+} 
     var max = 0;
     var place = 0;
 
@@ -120,65 +190,12 @@ function randomizeDesc(desc, monsterName, statArray){
    return desc;
 }
 
-function randomizeColors() {
+function randomizeColors(randomColorRPrim, randomColorGPrim, randomColorBPrim, randomColorRSec, randomColorGSec, randomColorBSec) {
     var canvas = document.getElementById('monsterCanvas');
     var ctx = canvas.getContext('2d', {willReadFrequently: true});
     var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var data = imageData.data;
-    var randomColorRPrim = Math.random() * 100;
-    var randomColorGPrim = Math.random() * 100;
-    var randomColorBPrim = Math.random() * 100;
-
-    if(randomColorRPrim <= 30 && randomColorGPrim <= 30 && randomColorBPrim <= 30)
-    {
-        randomColorRPrim += 40;
-        randomColorGPrim += 40;
-        randomColorBPrim += 40;
-    }
-    else{
-    if(randomColorRPrim <= 10)
-    randomColorRPrim += 40;
-    else if(randomColorRPrim >= 220)
-    randomColorRPrim -= 30;
-    
-    if(randomColorGPrim <= 10)
-    randomColorGPrim += 40;
-    else if(randomColorGPrim >= 220)
-    randomColorRPrim -= 30;
-    
-    if(randomColorBPrim <= 10)
-    randomColorBPrim += 40;
-    else if(randomColorGPrim >= 220)
-    randomColorRPrim -= 30;
-    }
-
-    var randomColorRSec = Math.random() * 100;
-    var randomColorGSec = Math.random() * 100;
-    var randomColorBSec = Math.random() * 100;
-
-    if(randomColorRSec <= 30 && randomColorGSec <= 30 && randomColorBSec <= 30)
-    {
-        randomColorRSec += 30;
-        randomColorGSec += 30;
-        randomColorBSec += 30;
-    }
-    else{
-    if(randomColorRSec <= 10)
-    randomColorRSec += 20;
-    else if(randomColorRSec >= 220)
-    randomColorRSec -= 40;
-    
-    if(randomColorGSec <= 10)
-    randomColorGSec += 20;
-    else if(randomColorGSec >= 220)
-    randomColorRSec -= 40;
-    
-    if(randomColorBSec <= 10)
-    randomColorBSec += 20;
-    else if(randomColorGSec >= 220)
-    randomColorRSec -= 40;
-    }
-
+   
     for (var i = 0; i < data.length; i += 4) {
         if(data[i] == 255 && data[i + 1] == 255 && data[i + 2] == 255){
         data[i] = randomColorRPrim;     // red
@@ -191,5 +208,6 @@ function randomizeColors() {
         data[i + 2] = randomColorBSec; // blue
         }
     }
-    ctx.putImageData(imageData, 0, 0);
+        ctx.putImageData(imageData, 0, 0);
+    }
 }
