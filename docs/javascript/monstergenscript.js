@@ -134,13 +134,16 @@ function randomizeDesc(desc, monsterName, statArray, randomColorRPrim, randomCol
     }
 
 
-if(randomColorRPrim >= 153 || randomColorGPrim >= 153 || randomColorBPrim >= 153){
-    if(randomColorRPrim > randomColorGPrim && randomColorGPrim >= randomColorBPrim){
+if((randomColorRPrim >= 153 && randomColorGPrim >= 153) || (randomColorRPrim >= 153 && randomColorBPrim >= 153) || (randomColorGPrim >= 153 && randomColorBPrim >= 153)){
+    //Light yellows and oranges
+    if(randomColorRPrim >= randomColorGPrim && randomColorGPrim >= randomColorBPrim){
         desc = desc.replace("[Region]", "Desert");
     }
-    else if(randomColorGPrim > randomColorRPrim && randomColorRPrim >= randomColorBPrim || randomColorBPrim <= randomColorRPrim){
+    //Light greens
+    else if(randomColorGPrim >= randomColorRPrim && randomColorRPrim >= randomColorBPrim || randomColorBPrim <= randomColorRPrim){
         desc = desc.replace("[Region]", "Grasslands")
     }
+    //Light blues and purples
     else if(randomColorBPrim >= randomColorGPrim && randomColorGPrim >= 153 || randomColorRPrim >= 153){
         desc = desc.replace("[Region]", "Ice");
     }
@@ -149,8 +152,34 @@ if(randomColorRPrim >= 153 || randomColorGPrim >= 153 || randomColorBPrim >= 153
     }
 }
 else{
-    desc = desc.replace("[Region]", "Unknown");
-} 
+    //Muted blues and purples
+    if(randomColorBPrim >= randomColorGPrim && randomColorGPrim >= randomColorRPrim){
+        desc = desc.replace("[Region]", "Cave");
+    }
+    //Deep blues and purples
+    else if(randomColorBPrim >= randomColorRPrim && randomColorRPrim >= randomColorGPrim){
+        desc = desc.replace("[Region]", "Ocean");
+    }
+    //Somewhere around brown to muted purple
+    else if(randomColorRPrim >= randomColorBPrim && randomColorBPrim >= randomColorGPrim){
+        desc = desc.replace("[Region]", "Dark");
+    }
+    //Browns and dark reds/oranges
+    else if(randomColorRPrim >= randomColorGPrim && randomColorGPrim >= randomColorBPrim){
+        desc = desc.replace("[Region]", "Plateau");
+    }
+    //Browns and dark greens/yellows
+    else if(randomColorGPrim >= randomColorRPrim && randomColorRPrim >= randomColorBPrim){
+        desc = desc.replace("[Region]", "Mountainous");
+    }
+    //Greys, pale greens, pale browns
+    else if(randomColorGPrim >= randomColorBPrim && randomColorBPrim >= randomColorRPrim){
+        desc = desc.replace("[Region]", "Wasteland");
+    }
+    else{
+        desc = desc.replace("[Region]", "Unknown")
+    }
+}
     var max = 0;
     var place = 0;
 
