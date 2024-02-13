@@ -18,82 +18,66 @@ else if(monsterName == "Dragon"){
     img.src= 'docs/assets/images/dragon.png';
 }
 
-const icyBlue = {
-    r: 102,
-    g: 255,
-    b: 255
-};
+var randomColorRPrim = Math.random() * 255;
+var randomColorGPrim = Math.random() * 255;
+var randomColorBPrim = Math.random() * 255;
 
-const grassyGreen = {
-    r: 102,
-    g: 255,
-    b: 51
-};
+if(randomColorRPrim <= 30 && randomColorGPrim <= 30 && randomColorBPrim <= 30)
+{
+    randomColorRPrim += 140;
+    randomColorGPrim += 140;
+    randomColorBPrim += 140;
+}
+else{
+if(randomColorRPrim <= 10)
+randomColorRPrim += 40;
+else if(randomColorRPrim >= 220)
+randomColorRPrim -= 30;
 
-const hotPink = {
-    r: 255,
-    g: 102,
-    b: 153
-};
+if(randomColorGPrim <= 10)
+randomColorGPrim += 40;
+else if(randomColorGPrim >= 220)
+randomColorRPrim -= 30;
 
-const hardRed = {
-    r: 255,
-    g: 51,
-    b: 0
-};
+if(randomColorBPrim <= 10)
+randomColorBPrim += 40;
+else if(randomColorGPrim >= 220)
+randomColorRPrim -= 30;
+}
 
-const cavernPurple = {
-    r: 0,
-    g: 102,
-    b: 153
-};
+var randomColorRSec = Math.random() * 255;
+var randomColorGSec = Math.random() * 255;
+var randomColorBSec = Math.random() * 255;
 
-const midnightBlue = {
-    r: 0,
-    g: 0,
-    b: 153
-};
+if(randomColorRSec <= 30 && randomColorGSec <= 30 && randomColorBSec <= 30)
+{
+    randomColorRSec += 30;
+    randomColorGSec += 30;
+    randomColorBSec += 30;
+}
+else{
+if(randomColorRSec <= 10)
+randomColorRSec += 20;
+//else if(randomColorRSec >= 220)
+//randomColorRSec -= 40;
 
-const forestGreen = {
-    r: 0,
-    g: 153,
-    b: 38
-};
+if(randomColorGSec <= 10)
+randomColorGSec += 20;
+//else if(randomColorGSec >= 220)
+//randomColorRSec -= 40;
 
-const monsterGreen = {
-    r: 0,
-    g: 153,
-    b: 77
-};
+if(randomColorBSec <= 10)
+randomColorBSec += 20;
+//else if(randomColorGSec >= 220)
+//randomColorRSec -= 40;
+//}
 
-const palePink = {
-    r: 255,
-    g: 153,
-    b: 204
-};
-
-
-var colorArray = [];
-
-colorArray.push(icyBlue);
-colorArray.push(grassyGreen);
-colorArray.push(hotPink);
-colorArray.push(hardRed);
-colorArray.push(cavernPurple);
-colorArray.push(midnightBlue);
-colorArray.push(palePink);
-colorArray.push(monsterGreen);
-colorArray.push(forestGreen);
-
-let colorPrim = colorArray[Math.floor(Math.random() * colorArray.length)]
-
-let colorSec = colorArray[Math.floor(Math.random() * colorArray.length)]
-
+console.log("R: " + randomColorRPrim + " G: " + randomColorBPrim + " B: " + randomColorGPrim)
 
 img.onload = function() {
     drawImage(this);
 
-    randomizeColors(colorPrim.r, colorPrim.g, colorPrim.b, colorSec.r, colorSec.g, colorSec.b);
+    randomizeColors(randomColorRPrim, randomColorGPrim, randomColorBPrim, randomColorRSec, randomColorGSec, randomColorBSec);
 };
 
     
@@ -113,7 +97,7 @@ img.onload = function() {
     statArray.push(monsterSPD);
     
    
-    monsterDesc = randomizeDesc(monsterDesc, monsterName, statArray, colorPrim.r, colorPrim.g, colorPrim.b);
+    monsterDesc = randomizeDesc(monsterDesc, monsterName, statArray, randomColorRPrim, randomColorGPrim, randomColorBPrim);
     
     var monsterDiv = document.getElementById("monster");
     monsterDiv.innerHTML = "<h2>" + monsterName + "</h2>"
@@ -255,3 +239,4 @@ function randomizeColors(randomColorRPrim, randomColorGPrim, randomColorBPrim, r
     }
         ctx.putImageData(imageData, 0, 0);
     }
+}
