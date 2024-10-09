@@ -72,6 +72,12 @@ const palePink = {
     b: 204
 };
 
+const brightYellow = {
+    r: 255,
+    g: 255,
+    b: 0
+};
+
 
 var colorArray = [];
 
@@ -84,6 +90,7 @@ colorArray.push(midnightBlue);
 colorArray.push(palePink);
 colorArray.push(monsterGreen);
 colorArray.push(forestGreen);
+colorArray.push(brightYellow);
 
 let colorPrim = colorArray[Math.floor(Math.random() * colorArray.length)]
 
