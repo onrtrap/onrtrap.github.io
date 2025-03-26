@@ -1,9 +1,9 @@
 
 body {
-   margin: 0;
-   height: 100vh; /* Full viewport height */
-   overflow: hidden;
-   position: relative;
+   /*margin: 0;
+   height: 100vh; Full viewport height 
+   overflow: auto;
+   position: relative;*/
 
     /* Location of the image */
     background-image: url("background-photo-2.jpg");
@@ -26,13 +26,13 @@ body {
        /* SHORTHAND CSS NOTATION
         * background: url(background-photo.jpg) center center cover no-repeat fixed;
         */ 
-        backdrop-filter: blur(8px) saturate(50%);
+        /*backdrop-filter: blur(8px) saturate(50%);*/
 }
 
   
   /* For mobile devices */
   @media only screen and (max-width: 767px) {
-   .background{ 
+   body{ 
       /* The file size of this background image is 93% smaller
        * to improve page load speed on mobile internet connections */
       background-image: url("background-photo-2.jpg");

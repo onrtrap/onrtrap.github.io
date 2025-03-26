@@ -1,136 +1,66 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Orion Roberts</title>
-<style>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Orion Noel Roberts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Orion Roberts">
+    <meta name="description" content="Orion Roberts Portfolio Site">
+    <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
+    <link rel="stylesheet" href="docs/assets/css/presentational-only.css">
 
-		@import url('https://fonts.cdnfonts.com/css/optima');
-		@import url('https://fonts.cdnfonts.com/css/galgey');
+    <!-- responsive-full-background-image.css stylesheet contains the code you want -->
+    <link rel="stylesheet" href="docs/assets/css/responsive-full-background-image.css">
 
-		*{
-			box-sizing: border-box;
-		}
-		
-		
-		body{
-			background-image: linear-gradient(#526D82, #27374D);
-			font-family: 'Galgey', sans-serif;
-		}
-		
-		header{
-			background-color:transparent;
-			padding: 30px;
-			text-align: center;
-			font-size: 35px;
-			color: white;
-			font-family: 'Optima', sans-serif;
-		}
+    <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="docs/javascript/presentational-only.js"></script>
+</head>
 
-		#header-text{
-			opacity: 0;
-			transition: opacity is ease-in-out
-		}
-		
-		section{
-			display: -webkit-flex;
-			display: flex;
-		}
-		
-		/* Style the navigation menu */
-		nav {
-			-webkit-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
-			background-color: #9DB2BF;
-			padding: 20px;
-		  }
-		  
-		  /* Style the list inside the menu */
-		  nav ul {
-			list-style-type: none;
-			padding: 0;
-		  }
-		  
-		  /* Style the content */
-		  article {
-			-webkit-flex: 3;
-			-ms-flex: 3;
-			flex: 3;
-			background-color: transparent;
-			padding: 10px;
-		  }
-		  
-		  /* Style the footer */
-		  footer {
-			background-color: transparent;
-			padding: 10px;
-			text-align: center;
-			color: white;
-			font-family: 'Optima', sans-serif;
-		  }
-		  
-		  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-		  @media (max-width: 600px) {
-			section {
-			  -webkit-flex-direction: column;
-			  flex-direction: column;
-			}
-		  }
-	</style>
-	</head>
-	<body>
-	
-	<header>
-		<h2 id="header-text"><strong>Orion's Project Bin</strong></h2>
-	</header>
-
-	<script src="docs\javascript\headerScript.html"></script>
-
-	<section>
-	<nav>
-		<p>2024</p>
-		<ul>
-			<li><a href="monstergen.html"><em>Randomized Generator</em></a></li>
-		</ul>
-		<p>2023</p>
-		<ul>
-			<li><a href="website.html"><em>This website</em></a></li>
-			<li><a href="pong.html"><em>Pong</em></a></li>
-		</ul>
-		<p>2022</p>
-		<ul>
-			<li><a href="hangman.html"><em>Hangman(Finished)</em></a></li>
-			<li><a href="humansvgoblins.html"><em>3D Rendering and Game Design (2022)</em></a></li>
-			<li><a href="hime.html"><em>H.I.M.E</em></a></li>
-		</ul>
-	</nav>
-
-
-	<article>
-		<p>
-			Hi, my name is Orion Noel Roberts, and this is a site for me to keep track of my projects.  I'll update this as I complete more things, so 
-			make sure to come back from time to time.
-		</p>
-		<p>
-			I utilize a variety of languages to complete projects.  I believe that it's best to write in the language that is at the
-			intersection of good understanding and suitability.  However, I do prefer to use Java on backend and Javascript on frontend personally.
-		</p>
-		<p>I have a wide variety of interests in software development and computer science, such as game design, app development, etc.
-			I also hope to progressively grow stronger in coding in a variety of languages, especially C++, Java, Javascript, and SQL.
-		</p>
-	</article>
-</section>
-<section>
-
-</section>
-		
-	
-	<footer>
-	<h2><strong>Contact Me:</strong>
-	<br>
-	ornrob@gmail.com
-	</h2>
-	</footer>	
-	
+<body>
+        <header class="container">
+            <section class="content">
+                <h1>Orion Noel Roberts</h1>
+                <p class="sub-title"><strong>Software Developer</strong></p>
+                <p><a class="button" id="load-more-content" href="#top">Learn More</a></p>
+                <div id="more-content">
+                    <p><strong>About Me</strong></p>
+                    <blockquote>
+                        <p>
+                            I graduated from the Rochester Institute of Technology in 2020, having honed
+                            <br>My coding skills throughout both college and High School.
+                            <br>In my professional career, I have worked primarily in Java and SQL for multiple
+                            Fortune 500 companies,
+                            <br>although I have also taken a full stack role utilizing languages such as
+                            <br>Javascript and beyond that frameworks such as Angular for use in personal projects.
+                            <br>On this site, you will find some of my previous and current projects.
+                        </p>
+                    </blockquote>
+                    <p><strong>Projects</strong></p>
+                    <blockquote>
+                        <p>Ongoing</p>
+                        <a href="website.html"><em>This website</em></a>
+                    </blockquote>
+                    <blockquote>
+                        <p>2024</p>
+                        <a href="monstergen.html"><em>Randomized Generator</em></a>
+                    </blockquote>
+                    <blockquote>
+                        <p>2023</p>
+                        <a href="pong.html"><em>Pong</em></a>
+                    </blockquote>
+                    <blockquote>
+                        <p>2022</p>
+                        <a href="hangman.html"><em>Hangman(Finished)</em></a>
+                        <a href="humansvgoblins.html"><em>3D Rendering and Game Design (2022)</em></a>
+                        <a href="hime.html"><em>H.I.M.E</em></a>
+                    </blockquote>
+                </div>
+            </section>
+        </header>
 </body>
 </html>
