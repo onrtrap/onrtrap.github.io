@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="docs\assets\css\projectpage.css" rel="stylesheet">
+        <link rel="stylesheet" href="docs/assets/css/responsive-full-background-image.css">
+        <meta charset="UTF-8">
+        <title>Website Journal</title>
+    </head>
+
+    <header><strong>Vrchat-Microservice Project</strong></header>
+    <p>
+        <strong>Currently in construction</strong>
+        <br> <br>
+        The best way to describe this project is a microservice architecture designed to create an easily modifiable game that can have its settings altered directly from your favorite web-browser, no
+        code necessary.  To give a high level overview, it works something like this.  In game, all players will see is the UI, and in the Unity editor (which is used to manage vrchat worlds and other resources),
+        they will only see the U# (C# variant for Vrchat) code.  The U# code sends a call by url, and given the correct url is routed through a gateway to a microservice which recieves that call for data 
+        and raises it to a microservice connected to a database.  This microservice performs CRUD operations for other services when called, but does not directly interact with the frontend.  
+        The microservice recieves the call and sends it back down the chain to the microservice requesting the data, through the gateway, and back down to the game, which recieves data in the form of a Json and 
+        parses it for use.  But, what if you would like to add to, update, delete, etc. from the database?  On the other end, a react UI frontend with private access allows for the viewing of data in the database,
+        as well as manipulating data within it.  This then makes calls through the gateway, to the backend microservice, to the microservice handling the database, and back.  In a sense, the architecture
+        somewhat resembles a forked road.
+    </p>
+    </html>
