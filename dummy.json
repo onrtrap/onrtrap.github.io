@@ -1,0 +1,2277 @@
+[
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Icebreaker",
+      "Flirty"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 3,
+    "text": "Whats your favorite thing about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Dare",
+      "Wholesome"
+    ],
+    "topic": "Travel",
+    "activity": "Dare",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Secrets",
+    "activity": "Dare",
+    "intensity": 2,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Love",
+    "activity": "Dare",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Truth",
+    "intensity": 1,
+    "text": "Whats your favorite thing about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to friendship.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Travel",
+    "activity": "Action",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 3,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Truth",
+      "Deep"
+    ],
+    "topic": "Travel",
+    "activity": "Truth",
+    "intensity": 4,
+    "text": "Tell a story related to travel that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Love",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Truth",
+      "Wholesome"
+    ],
+    "topic": "Love",
+    "activity": "Truth",
+    "intensity": 1,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Friendship",
+    "activity": "Truth",
+    "intensity": 3,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Dare",
+      "Deep"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Dare",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Dare",
+    "intensity": 1,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Truth",
+      "Deep"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Action",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 1,
+    "text": "Whats your favorite thing about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Action",
+      "Thoughtful"
+    ],
+    "topic": "Secrets",
+    "activity": "Action",
+    "intensity": 3,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Action",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 1,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Truth",
+      "Deep"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 5,
+    "text": "Tell a story related to hobbies that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Action",
+      "Thoughtful"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to hobbies.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Truth",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Action",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Action",
+    "intensity": 2,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to friendship.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Action",
+      "Thoughtful"
+    ],
+    "topic": "Love",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to love.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Truth",
+    "intensity": 4,
+    "text": "Tell a story related to friendship that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Icebreaker",
+      "Flirty"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Action",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Action",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Action",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Truth",
+      "Wholesome"
+    ],
+    "topic": "Friendship",
+    "activity": "Truth",
+    "intensity": 3,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Action",
+      "Random"
+    ],
+    "topic": "Love",
+    "activity": "Action",
+    "intensity": 3,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Action",
+      "Thoughtful"
+    ],
+    "topic": "Travel",
+    "activity": "Action",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to love.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Dare",
+      "Random"
+    ],
+    "topic": "Secrets",
+    "activity": "Dare",
+    "intensity": 5,
+    "text": "Tell a story related to secrets that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Travel",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 1,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Hobbies",
+    "activity": "Dare",
+    "intensity": 2,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Hobbies",
+    "activity": "Dare",
+    "intensity": 5,
+    "text": "Tell a story related to hobbies that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 1,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Love",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 1,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Action",
+      "Random"
+    ],
+    "topic": "Secrets",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Dare",
+      "Wholesome"
+    ],
+    "topic": "Secrets",
+    "activity": "Dare",
+    "intensity": 4,
+    "text": "Tell a story related to secrets that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Action",
+      "Flirty"
+    ],
+    "topic": "Love",
+    "activity": "Action",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to love.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Truth",
+      "Deep"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 4,
+    "text": "Tell a story related to secrets that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Action",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Action",
+    "intensity": 5,
+    "text": "Tell a story related to friendship that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Truth",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Truth",
+      "Deep"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 2,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 5,
+    "text": "Tell a story related to friendship that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Action",
+      "Flirty"
+    ],
+    "topic": "Secrets",
+    "activity": "Action",
+    "intensity": 5,
+    "text": "Tell a story related to secrets that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Action",
+      "Funny"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Love",
+    "activity": "Truth",
+    "intensity": 1,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to friendship.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Dare",
+      "Deep"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Dare",
+      "Wholesome"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to hobbies.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Travel",
+    "activity": "Truth",
+    "intensity": 3,
+    "text": "Whats your favorite thing about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Love",
+    "activity": "Truth",
+    "intensity": 3,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Truth",
+      "Thoughtful"
+    ],
+    "topic": "Friendship",
+    "activity": "Truth",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 4,
+    "text": "Tell a story related to secrets that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 3,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Hobbies",
+    "activity": "Dare",
+    "intensity": 4,
+    "text": "Tell a story related to hobbies that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Dare",
+      "Wholesome"
+    ],
+    "topic": "Love",
+    "activity": "Dare",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 1,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 5,
+    "text": "Tell a story related to travel that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 5,
+    "text": "Tell a story related to weird questions that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Hobbies",
+    "activity": "Icebreaker",
+    "intensity": 5,
+    "text": "Tell a story related to hobbies that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 1,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Truth",
+      "Deep"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 5,
+    "text": "Tell a story related to hobbies that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Action",
+      "Random"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Travel",
+    "activity": "Truth",
+    "intensity": 4,
+    "text": "Tell a story related to travel that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Action",
+      "Thoughtful"
+    ],
+    "topic": "Travel",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 3,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 1,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Dare",
+      "Wholesome"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 5,
+    "text": "Tell a story related to weird questions that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Action",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 3,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 3,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Action",
+      "Random"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to hobbies.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Icebreaker",
+      "Flirty"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 5,
+    "text": "Tell a story related to travel that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Love",
+    "activity": "Dare",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to love.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Action",
+      "Funny"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 4,
+    "text": "Tell a story related to weird questions that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Action",
+      "Flirty"
+    ],
+    "topic": "Travel",
+    "activity": "Action",
+    "intensity": 2,
+    "text": "Whats your favorite thing about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Friendship",
+    "activity": "Truth",
+    "intensity": 1,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Action",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 2,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Action",
+      "Flirty"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Hobbies",
+    "activity": "Dare",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to hobbies.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 1,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Icebreaker",
+      "Flirty"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Truth",
+    "intensity": 4,
+    "text": "Tell a story related to secrets that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Travel",
+    "activity": "Action",
+    "intensity": 3,
+    "text": "Whats your favorite thing about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Love",
+    "activity": "Dare",
+    "intensity": 1,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 3,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Travel",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Travel",
+    "activity": "Dare",
+    "intensity": 4,
+    "text": "Tell a story related to travel that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Hobbies",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to hobbies.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 4,
+    "text": "Tell a story related to weird questions that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Action",
+      "Wholesome"
+    ],
+    "topic": "Friendship",
+    "activity": "Action",
+    "intensity": 5,
+    "text": "Tell a story related to friendship that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Truth",
+      "Thoughtful"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Truth",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Action",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Action",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Travel",
+    "activity": "Icebreaker",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Dare",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Dare",
+      "Funny"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 5,
+    "text": "Tell a story related to friendship that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to hobbies.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Action",
+    "intensity": 3,
+    "text": "Whats your favorite thing about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 3,
+    "text": "Whats your favorite thing about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Dare",
+      "Flirty"
+    ],
+    "topic": "Hobbies",
+    "activity": "Dare",
+    "intensity": 1,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Truth",
+      "Thoughtful"
+    ],
+    "topic": "Love",
+    "activity": "Truth",
+    "intensity": 4,
+    "text": "Tell a story related to love that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Action",
+      "Deep"
+    ],
+    "topic": "Friendship",
+    "activity": "Action",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Truth",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Dare",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Dare",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 2,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Dare",
+      "Random"
+    ],
+    "topic": "Friendship",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Friendship",
+    "activity": "Truth",
+    "intensity": 1,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 2,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Action",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Travel",
+    "activity": "Truth",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Truth",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Action",
+      "Wholesome"
+    ],
+    "topic": "Love",
+    "activity": "Action",
+    "intensity": 2,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Dare",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Icebreaker",
+      "Flirty"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Truth",
+      "Flirty"
+    ],
+    "topic": "Friendship",
+    "activity": "Truth",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Truth",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 5,
+    "text": "Tell a story related to hobbies that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Action",
+      "Funny"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 3,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Icebreaker",
+      "Thoughtful"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 2,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Love",
+    "activity": "Truth",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Truth",
+      "Wholesome"
+    ],
+    "topic": "Hobbies",
+    "activity": "Truth",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Secrets",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 3,
+    "text": "Whats your favorite thing about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Dare",
+      "Thoughtful"
+    ],
+    "topic": "Secrets",
+    "activity": "Dare",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Weird Questions",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to weird questions.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Action",
+      "Thoughtful"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 1,
+    "text": "Whats your favorite thing about hobbies?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Icebreaker",
+      "Wholesome"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 6,
+    "text": "Whats a secret or bold opinion you have about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 5,
+    "text": "Tell a story related to weird questions that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Truth",
+      "Random"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Truth",
+    "intensity": 3,
+    "text": "Whats your favorite thing about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Love",
+      "Icebreaker",
+      "Random"
+    ],
+    "topic": "Love",
+    "activity": "Icebreaker",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to love.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Action",
+      "Wholesome"
+    ],
+    "topic": "Travel",
+    "activity": "Action",
+    "intensity": 10,
+    "text": "Describe an intense or private moment connected to travel.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Weird Questions",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Weird Questions",
+    "activity": "Icebreaker",
+    "intensity": 3,
+    "text": "Whats your favorite thing about weird questions?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Action",
+      "Random"
+    ],
+    "topic": "Secrets",
+    "activity": "Action",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Icebreaker",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Icebreaker",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about secrets?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to friendship.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 5,
+    "text": "Tell a story related to friendship that made you laugh.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Travel",
+      "Action",
+      "Wholesome"
+    ],
+    "topic": "Travel",
+    "activity": "Action",
+    "intensity": 7,
+    "text": "Whats a secret or bold opinion you have about travel?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Friendship",
+      "Action",
+      "Thoughtful"
+    ],
+    "topic": "Friendship",
+    "activity": "Action",
+    "intensity": 2,
+    "text": "Whats your favorite thing about friendship?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Love",
+      "Truth",
+      "Funny"
+    ],
+    "topic": "Love",
+    "activity": "Truth",
+    "intensity": 1,
+    "text": "Whats your favorite thing about love?",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Secrets",
+      "Action",
+      "Funny"
+    ],
+    "topic": "Secrets",
+    "activity": "Action",
+    "intensity": 9,
+    "text": "Describe an intense or private moment connected to secrets.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Friendship",
+      "Icebreaker",
+      "Deep"
+    ],
+    "topic": "Friendship",
+    "activity": "Icebreaker",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to friendship.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Intense",
+      "Hobbies",
+      "Action",
+      "Flirty"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 8,
+    "text": "Describe an intense or private moment connected to hobbies.",
+    "isSafe": true
+  },
+  {
+    "decksAllowed": [
+      "Calm",
+      "Hobbies",
+      "Action",
+      "Flirty"
+    ],
+    "topic": "Hobbies",
+    "activity": "Action",
+    "intensity": 4,
+    "text": "Tell a story related to hobbies that made you laugh.",
+    "isSafe": true
+  }
+]
